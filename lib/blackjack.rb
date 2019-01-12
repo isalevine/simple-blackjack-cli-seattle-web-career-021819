@@ -25,7 +25,7 @@ def end_game(numz)
 end
 
 def initial_round
-  #plum
+  do deal_card.2.times
 end
 
 def hit?
