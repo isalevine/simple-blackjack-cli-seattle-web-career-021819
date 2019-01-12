@@ -52,6 +52,12 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
-  # code runner here
+def runner(cardnumero)
+  cardtotalitos = cardnumero
+  welcome
+  initial_round
+  while cardtotalitos < 21
+    hit?
+  end
+end_game
 end
