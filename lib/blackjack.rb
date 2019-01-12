@@ -25,8 +25,10 @@ def end_game(numz)
 end
 
 def initial_round
-  cards << deal_card
-  cards << deal_card
+  cardone = deal_card
+  cardtwo = deal_card
+  cards = cardone + cardtwo
+  display_card_total(cards)
 end
 
 def hit?
