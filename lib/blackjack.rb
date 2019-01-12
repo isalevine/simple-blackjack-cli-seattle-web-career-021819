@@ -35,6 +35,12 @@ end
 def hit?(cardnumz)
   prompt_user
   answer = get_user_input
+  if answer == "h"
+    deal_card
+    cardtotaling += cardnumz
+  elsif answer == "s"
+    cardtotaling = cardnumz
+  end   
 end
 
 def invalid_command
