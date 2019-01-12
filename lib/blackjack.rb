@@ -39,7 +39,9 @@ def hit?
     dealcard
   elsif answer == "s"
   else
+    invalid_command
   end
+  display_card_total
 end
 
 def invalid_command
