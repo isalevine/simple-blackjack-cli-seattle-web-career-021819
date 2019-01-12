@@ -33,14 +33,7 @@ def initial_round
 end
 
 def hit?
-  output = prompt_user
-  puts output
-  answer = get_user_input
-  if answer == "h"
-    dealcard
-  elsif answer == "s"
-  else
-  end
+  prompt_user
 end
 
 def invalid_command
