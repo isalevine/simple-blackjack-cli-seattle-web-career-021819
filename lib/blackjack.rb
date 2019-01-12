@@ -34,12 +34,14 @@ end
 
 def hit?(cardnumz)
   prompt_user
-  answer = get_user_input
-  if answer == "h"
-    deal_card
-    cardtotaling += cardnumz
-  elsif answer == "s"
-    cardtotaling = cardnumz
+  loop do
+    answer = get_user_input
+    if answer == "h"
+      deal_card
+      cardtotaling += cardnumz
+    elsif answer == "s"
+      break
+    end
   end
 end
 
