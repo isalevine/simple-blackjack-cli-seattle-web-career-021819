@@ -59,5 +59,5 @@ def runner(cardnumero)
   while cardtotalitos < 21
     hit?
   end
-end_game
+  end_game
 end
