@@ -40,7 +40,7 @@ def hit?(cardnumz)
     cardtotaling += cardnumz
   elsif answer == "s"
     cardtotaling = cardnumz
-  end   
+  end
 end
 
 def invalid_command
