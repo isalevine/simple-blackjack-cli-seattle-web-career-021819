@@ -32,7 +32,7 @@ def initial_round
   return cards
 end
 
-def hit?
+def hit?(cardnumz)
   prompt_user
 end
 
