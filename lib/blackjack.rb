@@ -35,9 +35,9 @@ end
 def hit?
   prompt_user
   answer = get_user_input
-  if answer = "h"
+  if answer == "h"
     dealcard
-  elsif answer = "s"
+  elsif answer == "s"
   else
   end
 end
