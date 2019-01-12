@@ -25,7 +25,8 @@ def end_game(numz)
 end
 
 def initial_round
-  do deal_card.2.times
+  cards << deal_card
+  cards << deal_card
 end
 
 def hit?
