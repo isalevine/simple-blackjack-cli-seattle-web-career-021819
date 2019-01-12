@@ -33,7 +33,7 @@ def initial_round
 end
 
 def hit?
-  prompt_user
+  puts prompt_user
   answer = get_user_input
   if answer == "h"
     dealcard
