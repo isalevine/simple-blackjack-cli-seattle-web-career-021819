@@ -57,7 +57,7 @@ def runner
   welcome
   initial_round
   while cardtotalitos < 21
-    hit?
+    hit?(7)
   end
   end_game
 end
