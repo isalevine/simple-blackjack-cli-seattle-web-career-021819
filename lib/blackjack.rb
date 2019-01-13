@@ -52,9 +52,8 @@ end
 #####################################################
 
 def runner
-  cardfinal = 0
   welcome
-  initial_round
+  cardfinal = initial_round
   until cardfinal > 21
     cardfinal += hit?(10)
   end
