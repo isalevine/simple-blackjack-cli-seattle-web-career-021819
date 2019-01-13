@@ -59,5 +59,5 @@ def runner
   while cardtotalitos < 21
     cardtotalitos += hit?(7)
   end
-  end_game
+  end_game(cardtotalitos)
 end
