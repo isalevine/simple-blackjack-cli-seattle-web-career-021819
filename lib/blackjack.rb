@@ -52,12 +52,12 @@ end
 #####################################################
 
 def runner
-  cardtotalitos = 0
+  cardfinal = 0
   welcome
   initial_round
-  while cardtotalitos < 21
-    cardtotalitos += hit?(10)
+  while cardfinal < 21
+    cardfinal += hit?(10)
   end
-  display_card_total(cardtotalitos)
-  end_game(cardtotalitos)
+  display_card_total(cardfinal)
+  end_game(cardfinal)
 end
