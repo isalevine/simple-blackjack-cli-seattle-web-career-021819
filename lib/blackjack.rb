@@ -39,7 +39,6 @@ def hit?(cardnumz)
   if answer == "h"
     cardtotaling += deal_card
   elsif answer == "s"
-    cardtotaling = cardnumz
   end
 end
 
