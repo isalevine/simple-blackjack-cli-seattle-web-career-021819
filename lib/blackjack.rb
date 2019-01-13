@@ -33,7 +33,7 @@ def initial_round
 end
 
 def hit?(cardnumz)
-  cardtotaling = 7
+  cardtotaling = cardnumz
   prompt_user
   answer = get_user_input
   if answer == "h"
@@ -59,6 +59,7 @@ def runner
   while cardtotalitos < 21
     cardtotalitos += hit?(10)
   end
+  cardtotalitos = 30
   display_card_total(cardtotalitos)
   end_game(cardtotalitos)
 end
