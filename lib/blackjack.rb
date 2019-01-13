@@ -55,7 +55,7 @@ def runner
   cardfinal = 0
   welcome
   initial_round
-  while cardfinal < 21
+  until cardfinal > 21
     cardfinal += hit?(10)
   end
   if cardfinal == "30"
