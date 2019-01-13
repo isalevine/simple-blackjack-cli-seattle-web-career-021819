@@ -57,7 +57,7 @@ def runner
   welcome
   initial_round
   while cardtotalitos < 21
-    cardtotalitos += hit?(7)
+    cardtotalitos += hit?(10)
   end
   display_card_total(cardtotalitos)
   end_game(cardtotalitos)
