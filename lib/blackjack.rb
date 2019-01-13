@@ -39,7 +39,7 @@ def hit?(cardnumz)
     cardtotaling = cardnumz
     cardtotaling += deal_card
   elsif answer == "s"
-    cardtotaling = cardnumz
+    return cardnumz
   end
 end
 
