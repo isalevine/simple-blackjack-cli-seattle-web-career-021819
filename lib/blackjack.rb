@@ -55,7 +55,7 @@ def runner
   cardtotalitos = 0
   welcome
   initial_round
-  while cardtotalitos < 30
+  while cardtotalitos < 21
     cardtotalitos += hit?(10)
   end
   display_card_total(cardtotalitos)
