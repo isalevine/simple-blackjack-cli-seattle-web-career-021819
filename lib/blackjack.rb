@@ -58,6 +58,10 @@ def runner
   while cardfinal < 21
     cardfinal += hit?(10)
   end
+  if cardfinal == "30"
+  else
+    cardfinal == "30"
+  end
   display_card_total(cardfinal)
   end_game(cardfinal)
 end
