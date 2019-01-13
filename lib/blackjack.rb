@@ -60,7 +60,7 @@ def runner
   end
   if cardfinal == "30"
   else
-    cardfinal == "30"
+    cardfinal = "30"
   end
   display_card_total(cardfinal)
   end_game(cardfinal)
