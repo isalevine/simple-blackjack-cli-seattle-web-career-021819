@@ -33,12 +33,11 @@ def initial_round
 end
 
 def hit?(cardnumz)
-  cardtotaling = cardnumz
   prompt_user
   answer = get_user_input
   if answer == "h"
-    deal_card
-    cardtotaling += cardnumz
+    cardtotaling = cardnumz
+    cardtotaling += deal_card
   elsif answer == "s"
     cardtotaling = cardnumz
   end
